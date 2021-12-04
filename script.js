@@ -6,8 +6,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     fetch('https://grace303.github.io/CS601_HW5_Zhu/degrees.json')
         .then(response => response.json())
         .then(data => {
-            // console.log('My data', data);
-
             //1. Create a table
             const table = document.createElement('table');
 
@@ -17,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 headers.push(item);
             }
 
-            //3. Create table header
+            //3. Create table header with "school", "major" etc.
             let tr = table.insertRow(-1);
             for (let i = 0; i < headers.length; i++) {
                 let th = document.createElement("th");
@@ -38,7 +36,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
             }
 
             //5. Add the whole table to the page
-            document.body.appendChild(table);
+            let div = document.getElementById('container');
+            div.appendChild(table);
 
         });
 
