@@ -11,4 +11,4 @@ This is homework 5, which is a Promisse and JSON fetch assignment.
 1. Open index.html using your browser (I was using Chrome).
 2. Click on the button to get the degree information of me.
 
-*You can also click on the github hosting url to try it.
+*You can also click on the github hosting url https://grace303.github.io/CS601_HW5_Zhu/ to try it.
