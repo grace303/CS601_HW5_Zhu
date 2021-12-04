@@ -8,8 +8,25 @@ body {
   height: 100%;
 }
 
-h1 {
+.btn-wrapper {
   text-align: center;
+}
+
+button {
+  background-color: #fad07a;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #febb36;
 }
 
 table {
