@@ -1,28 +1,22 @@
 {
     "my_degrees": [
       {
-        "bachelors": {
-          "school": "Sichuan University",
-          "major": "Broadcast and TV Journalism",
-          "type": "BA",
-          "year conferred": "2013"
-        }
+        "school": "Sichuan University",
+        "major": "Broadcast and TV Journalism",
+        "type": "BA",
+        "year conferred": "2013"
       },
       {
-        "masters": {
-            "school": "Boston University",
-            "major": "Advertising",
-            "type": "MS",
-            "year conferred": "2015"
-        }
+        "school": "Boston University",
+        "major": "Advertising",
+        "type": "MS",
+        "year conferred": "2015"
       },
       {
-        "masters": {
-            "school": "Boston University",
-            "major": "Software Development",
-            "type": "MS",
-            "year conferred": "2022"
-        }
+        "school": "Boston University",
+        "major": "Software Development",
+        "type": "MS",
+        "year conferred": "2022"
       }
     ]
   }
