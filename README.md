@@ -10,7 +10,7 @@ This is homework 5, which is a Promisse and JSON fetch assignment.
 2. Display the content using table and style the page with css.
 3. An error message will be displayed on the page when the fetch fails after checking the response status (when it's not 200) as below. You can add a "/" after ".json" to create a fake 400 response.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/grace303/CS601_HW5_Zhu/blob/main/assets/error_test.png)
 
 ## How to run
 
